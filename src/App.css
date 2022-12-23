@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  width: 400px;
+  min-height: 500px;
+  border: 1px solid blue;
+  background-color: white;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+h1 {
+  background: transparent;
+  text-shadow: 0px 2px 2px black;
+  color: white;
+  background-color: rgb(80, 80, 219);
+  margin-top: 20px;
+}
+input {
+  width: 300px;
+  height: 40px;
+  text-align: left;
+  border: none;
+  margin-top: 10px;
+  outline: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+button {
+  margin-top: 10px;
+  width: 60px;
+  min-height: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(42, 42, 139);
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+  outline: none;
+  box-shadow: 5px 5px 15px -15px rgba(0, 0, 0, 0.3);
+}
+button:hover {
+  background-color: #20bf6b;
+}
+ol {
+  margin-top: 30px;
+}
+ol li {
+  padding-left: 5px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500px;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #3f3781;
+  text-transform: capitalize;
+}
+@media (max-width: 768px) {
+  .App {
+    width: 70%;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  input {
+    width: 200px;
+    height: 30px;
+    text-align: left;
+  }
+  button {
+    margin-left: 0px;
+    width: 40px;
+    height: 0px;
+    color: white;
+    font-size: 30px;
+  }
+}

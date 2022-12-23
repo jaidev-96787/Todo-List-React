@@ -1,0 +1,26 @@
+.todo_style {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+i {
+  text-align: left;
+  font-weight: bold;
+  cursor: pointer;
+}
+.todo_style .fa-trash-xmark {
+  width: 60px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  background-color: #8c7ee4;
+  border-radius: 10%;
+  margin: 0 25px 0 25px;
+  color: white;
+  box-shadow: 5px 5px 15px -15px rgba(0, 0, 0, 0.3);
+}
+.todo_style .fa-trash-xmark:hover {
+  background-color: red;
+}
